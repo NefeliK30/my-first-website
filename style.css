@@ -1,0 +1,109 @@
+body{
+  color: color(65,75,86);
+  font-family: arial;
+  /* margin:  0px */
+}
+
+#navdiv {
+  height: 76px;
+}
+
+
+/* img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+div{
+  height:inherit;
+  overflow:auto;
+  width: 100vw;
+}
+
+h1,h2 {
+  text-align: center;
+}
+
+h1{
+  font-size: 5em;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+img{
+  display: flex;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+p {
+  width: 40%;
+  margin: 0 10vw 10vh 10vw;
+  font-size: 2em;
+}
+
+a {
+  color: rgb(0,0,0);
+}
+
+/* div for title in images */
+div.desc{
+  padding: 15px;
+  text-align: justify;
+  font-style: oblique 15deg;
+}
+
+div.contrast {
+  background-color: rgb(102, 204, 255);
+  color: rgb(204, 0, 204);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 60px;
+}
+
+li a {
+  display: block;
+}
+
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* social media code */
+.navright {float:right;
+  width: 50%;}
