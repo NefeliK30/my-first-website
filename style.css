@@ -4,6 +4,8 @@ body{
   /* margin:  0px */
 }
 
+/* html { overflow-x: hidden; } */
+
 #navdiv {
   height: 76px;
 }
@@ -17,7 +19,7 @@ body{
 
 div{
   height:inherit;
-  overflow:auto;
+  overflow:hidden;
   width: 100vw;
 }
 
@@ -40,9 +42,16 @@ img{
 }
 
 p {
-  width: 40%;
-  margin: 0 10vw 10vh 10vw;
-  font-size: 2em;
+  width: 100%;
+  /* margin: 0 10vw 10vh 10vw; */
+  max-width: 100%;
+  min-height: 1.62em;
+  padding: 2px 5px 2px 5px;
+  vertical-align: initial;
+  overflow: hidden;
+  font-size: 18px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 a {
